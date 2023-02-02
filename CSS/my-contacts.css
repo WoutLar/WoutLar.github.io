@@ -1,0 +1,131 @@
+.My_contacts_TXT_Tab{
+    background-color: #D8D8D8;
+    height: 25%;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 0%;
+    position:fixed;
+}
+
+#My_contacts_TAB{
+    height: 10%;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    display: flex;
+    direction: row;
+}
+
+.MC-TXT-Icon{
+    height: 140%;
+    width: 5%;
+    margin-top: -1.7%;
+}
+
+#Close-MCTXT{
+    margin-left:  72%;
+    width: 3%;
+    margin-top: 0.5%;
+}
+
+#W-Box-MC-ID{
+    height:67%;
+}
+
+#greyb-MC-ID{
+    height: 82%;    
+}
+
+.PaintIMG{
+    margin-left: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.PFF{
+    margin-left: 3%;
+    margin-top: -22%;
+    width: 28vh;
+    z-index: -1;
+    height: 37vh;
+    position:fixed;
+    overflow:hidden;
+}
+
+#About_me_TAB_IMG{
+    background-color:  #000080;
+    margin-top: -23.8%;
+    margin-left: 0.1%;
+    height: 2.1%;
+    width: 16.4%;
+    z-index: 2;
+    position:fixed;
+    overflow:hidden;
+}
+
+#Close-AM-PNG{
+    height: 96%;
+    width: 5.5%;
+    margin-top: -0.1%;
+    margin-left: 92%;
+    position: absolute;
+}
+
+#FileBox-MC1{
+    margin-top: 0.2%;
+    height: 13%;
+}
+
+#FileBox-MC2{
+    margin-top: -5%;
+    height: 13%;
+}
+
+.sussy_box{
+    display: flex;
+    flex-direction: row;
+}
+
+.Insta{
+    width: 22%;
+}
+.Insta-MC{
+    width: 100%;
+}
+.Insta-TXT{
+    margin-top: -15%;
+    margin-left: 20%;
+}
+
+.Twitter{
+    height: 22%;
+    width: 22%;
+}
+
+.Twitter-TXT{
+    margin-top: -15%;
+    margin-left: 27%;
+}
+
+.Github{
+    height: 18%;
+    width: 18%;
+}
+
+.GitHub-TXT{
+    margin-top: -10%;
+    margin-left: 25%;
+}
+
+.Mail-TXT{
+    margin-top: -20%;
+}
+
+.Email{
+    height: 22%;
+    width: 22%;
+    margin-left: 6%;
+    margin-top: -3%;
+    font-size: 80%;
+}
+

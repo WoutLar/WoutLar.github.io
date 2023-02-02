@@ -1,0 +1,78 @@
+.About_me_TXT_Tab{
+    background-color: #D8D8D8;
+    height: 50%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 0%;
+    position:fixed;
+}
+
+#About_me_TAB{
+    height: 5%;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    display: flex;
+    direction: row;
+}
+
+.AM-TXT-Icon{
+    height: 90%;
+    width: 2.8%;
+    margin-top: 0%;
+}
+
+#Close-AMTXT{
+    margin-left:76%;
+}
+
+#W-Box-AM-ID{
+    height:90%;
+}
+
+#greyb-AM-ID{
+    height: 92%;
+}
+
+.PaintIMG{
+    height: 10%;
+    width: 10%;
+    margin-left: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.PFF{
+    margin-left: 3%;
+    margin-top: -22%;
+    width: 28vh;
+    z-index: -1;
+    height: 37vh;
+    position:fixed;
+    overflow:hidden;
+}
+
+#About_me_TAB_IMG{
+    background-color:  #000080;
+    margin-top: -23.8%;
+    margin-left: 0.1%;
+    height: 2.1%;
+    width: 16.4%;
+    z-index: 2;
+    position:fixed;
+    overflow:hidden;
+}
+
+#Close-AM-PNG{
+    height: 96%;
+    width: 5.5%;
+    margin-top: -0.1%;
+    margin-left: 92%;
+    position: absolute;
+}
+
+
+.AMONGUS{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+
+body{
+    background-color:#008080;
+    margin-top:0px;
+    margin-left:0px;
+    overflow: hidden;
+}
+
+
+.login-screen{
+    background-color: #008080;
+    z-index: -5;
+}   
+
+.Sticky-Note{
+    background-color: bisque;
+    width: 30vh;
+    height: 30vh;
+    position: fixed;
+    margin-top:  -62vh;
+    margin-left: 174vh;
+    border: 1px solid #333;
+    box-shadow: -2vh 1vh 3vh 1vh #004848;
+    font-family: w95fa;
+    font-size: 1.9vh;
+}
+
+.logobox{
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+    position: absolute;
+    margin-top: -55vh;
+    margin-left: 79.5vh;
+}
+
+.inputholder{
+    margin-left: 84vh;
+    margin-top: 60vh;
+    height: 20vh;
+    width: 40vh;
+}
+
+.logo{
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+ 
+}
+
+.username{
+    height: 3vh;
+    width: 40vh;
+    background-color: #C0C0C0;
+}
+
+.password{
+    margin-top: 1vh;
+    height: 3vh;
+    width: 40vh;
+    background-color: #C0C0C0;
+}
+
+.log-in{
+    font-family: w95fa;
+    font-size: 7vh;   
+    background-color: #C0C0C0;
+    height: 8vh;
+    width: 26vh;  
+    margin-left: 92vh;
+    border-top: solid 0.2vh black;
+    border-left: solid 0.2vh black;
+    border-bottom: solid 0.2vh white;
+    border-right: solid 0.2vh white;
+    border-right-style: hidden;
+    z-index: -2;
+}
+
+.About-Me-page{
+    height: 100%;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+    text-decoration: none;
+    color: black;
+}
+
+.LI{
+    height: 100%;
+    width: 100%;
+    margin-left: 17%;
+    text-decoration: none;
+    color: black;
+}
+
+.log-in:hover{
+
+    background-color:#a4a4a4;
+    cursor:pointer;
+        
+}

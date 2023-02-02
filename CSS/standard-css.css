@@ -1,0 +1,300 @@
+
+@font-face {
+    src: url(https://fonts.cdnfonts.com/css/w95fa);
+    font-family: W95FA;
+}
+/* deze stylesheet word gebruikt om achtergrond + footer
+ en font in de pagina te zetten*/
+footer {
+    background-color: #C0C0C0;
+    position: fixed;
+    height: 5vh;
+    width: 120%;
+    bottom: 0vh;
+    left: 0vh;
+    right: 0vh;
+    margin-bottom: 0vh;
+    border-top: solid 0.4vh white;  
+}
+
+body {
+    background-color: #008080;
+    max-width: 200vh;
+    max-height: 100vh;
+    overflow: hidden;
+    font-family: W95FA;
+    font-weight: 500;
+
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+.desktop{
+    height: 2.5vh;
+    width: 13vh;
+    border-top: solid 0.2vh white;
+    border-left: solid 0.2vh white;
+    border-bottom: solid 0.2vh black;
+    border-right: solid 0.2vh black;
+    margin-left: 2%;
+    margin-top: 0.35%;
+    text-align: end;
+    font-family:W95FA;
+}
+
+.BGDesktop{
+    background-color: black;
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-top: -20%;
+    margin-left: 2%;
+    color: white;
+    font-size: 60%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 200%
+}
+
+.DesktopIcon{
+    margin-left: 9%;
+}
+
+.logo{
+    height: 2.5vh;
+    width: 2.5vh;
+    position: absolute;
+    width: 35px;
+    height: 35.07px;
+    left: 4px;
+    top: 2px;
+
+}
+
+.desktop:hover{
+    background-color: #a4a4a4;
+    border-top: solid 0.2vh rgb(209, 209, 209);
+    border-left: solid 0.2vh rgb(209, 209, 209);
+    cursor:pointer;
+}
+
+/*  this code is needed in html for the classic background
+
+        <div class="FB">
+            <a href="computer.html" class="computer">
+                <img src="IMG/computer.png" alt="COMP" class="computerPic">
+                <p class="TXTPComp">Computer</p>
+            </a>
+            <div class="connections">
+                <img src="IMG/connection.png" alt="CONN" class="connectionPic">
+                <p class="TXTPComp" id="TXTPConn">Connections</p>
+            </div>
+            <a href="trashcan.html" class="Trashcan">
+                <img src="IMG/trashcan.png" alt="TRASH" class="trashcanPic">
+                <p class="TXTPComp" id="TXTPTrash">Trashcan</p>
+            </a>
+            <!--i customly designd the Contact icon so it needed some coverup after not being able
+            to make it into a blank background same goed for about_me and projects-->
+            <a href="my-contancts.html" class="my-contacts">
+                <img src="IMG/my-contacts.png" alt="MY_C" class="my-contactsPic">
+            </a>
+                <div class="CoverUpContacts">
+                    <p class="TXTPComp" id="TXTPCont">My_contacts</p>
+                </div>
+            <a href="about-me.html" class="about-me">
+                    <img src="IMG/about-me.png" alt="MY_C" class="about-mePic">
+            </a>
+            <div class="CoverUpContacts" id="CoverUpAbout">
+                <p class="TXTPComp" id="TXTPABout">About_Me</p>
+            </div>
+            <div class="brake"></div>
+            <a href="skills.html" class="Skills">
+                <img src="IMG/notepad.png" alt="SKILLS" class="SkillsPic">
+                <p class="TXTPComp" id="TXTPSkills">Skills</p>
+            </a>
+            <a href="projects.html" class="projects">
+                <img src="IMG/projects.png" alt="PROJ" class="projectsPic">
+            </a>
+            <div class="CoverUpContacts" id="CoverUpProject">
+                <p class="TXTPComp" id="TXTPProject">Projects</p>
+            </div>
+
+        </div>
+
+*/
+
+.FB{
+    width: 100vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: -2%;
+    margin-left: -2%;
+    position: absolute;
+    z-index: -99;
+}
+
+/* computer icon+txt+clickable*/
+.computer{
+    height: 22vh;
+    width: 25vh;
+}
+.computerPic{
+    height: 100%;
+    width: 100%;
+}
+.TXTPComp{
+    margin-top: -24%;
+    font-weight: 100;
+    margin-left: 25%;
+    font-size: 130%;
+    color: white;
+}
+
+/* Connections icon+txt+clickable*/
+.connections{
+    height: 22vh;
+    width: 22vh;
+    margin-left: 1.2vh;
+    margin-top: -4vh;
+
+}
+
+.connectionPic{
+    height: 100%;
+    width: 100%;
+}
+
+#TXTPConn{
+    margin-left: 17%;
+    margin-top: -28%;
+    
+}
+
+/* Trashicon+txt+clickable*/
+.Trashcan{
+    height: 20vh;
+    width: 20vh;
+    margin-top: -3.5vh;
+    margin-left: 2vh;
+
+}
+
+.trashcanPic{
+    height: 100%;
+    width: 100%;
+}
+
+#TXTPTrash{
+    margin-left: 23%;
+    margin-top: -28%;
+}
+
+
+/* My-Contacts-Icon+txt+clickable*/
+.my-contacts{
+    height: 20vh;
+    width: 26vh;
+    margin-top: 1vh;
+    margin-left: -6.5vh;
+
+}
+
+.my-contactsPic{
+    height: 100%;
+    width: 100%;
+}
+
+.CoverUpContacts{    
+    background-color: #008080;
+    height: 5%;
+    width: 20%;
+    margin-top: 16%;
+    margin-left: 23%;
+
+    position: absolute;
+}
+
+#TXTPCont{  
+    margin-left: 6%;
+    margin-top: -4%;
+
+}
+
+/*About-Me-Icon+txt+clickable  */
+.about-me{
+    height: 20vh;
+    width: 20vh;
+    margin-top: -1vh;
+    margin-left: -3.2vh;
+}
+.about-mePic{
+    height: 100%;
+    width: 100%;
+
+
+}
+#CoverUpAbout{
+    margin-top: 35%;
+    margin-left: 23%;
+
+}
+#TXTPABout{
+    margin-top: -3%;
+    margin-left: 13%;
+
+}
+
+
+/*easy solution for not having to redo into a grid*/
+.brake{
+    height: 20vh;
+
+}
+
+/* Skills-icon+txt+clickable */
+.Skills{
+    height: 12vh;
+    width: 12vh;
+    margin-top: 5vh;
+    margin-left: -1vh;
+}
+.SkillsPic{
+    height: 100%;
+    width: 100%;
+
+}
+#TXTPSkills{
+    margin-top: -5%;
+    margin-left: 41%;
+}
+
+/* Pjojects-icon+txt+clickable */
+.projects{
+    height: 20vh;
+    width: 20vh;
+    margin-top: 3.35vh;
+    margin-left: -3.2vh;
+}
+.projectsPic{
+    height: 100%;
+    width: 100%;
+}
+#CoverUpProject{
+    margin-top: 35%;
+    margin-left: 44%;
+
+}
+#TXTPProject{
+    margin-top: -3%;
+    margin-left: 16%;
+
+}

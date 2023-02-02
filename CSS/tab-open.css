@@ -1,0 +1,268 @@
+/*
+        <div class="Home">
+            <div class="tab">
+                <img src="IMG\computer.png" alt="ComputerIcon" class="Computer-icon">
+                    <H1 class="HomeTXT">Home</H1>
+                </img>
+                <a href="home-page.html" class="Close">
+                    <p class="CloseX">X</p>
+                </a>
+            </div>
+            <div class="greyb">
+                <p class="FileName">File</p>
+                <div class="W-Box">
+                    <a href="my-contancts.html" class="WCont">
+                        <img src="IMG/w-contacts.png" alt="White-Contacts" class="WContP" >
+                        <p class="TXTCont">My_Contacs</p>
+                    </a>
+                    <a href="about-me.html" class="WAbout">
+                         <img src="IMG/w-about-me.png" alt="White-About_Me" class="WAboutP">
+                        <p class="TXTAbout">About_me</p>
+                    </a>
+                     <a href="skills.html" class="WNote">
+                        <img src="IMG/w-note.png" alt="White-NoteP" class="WNoteP">
+                        <p class="TXTNote">Skills</p>
+                     </a>
+                     <a href="projects.html" class="WProj">
+                        <img src="IMG/w-proje.png" alt="white-Project" class="WProjP">
+                        <p class="TXTProj">Projects</p>
+                     </a>
+                    <a href="trashcan.html" class="WTrash">
+                        <img src="IMG/trashcan.png" alt="White-trash" class="WTrashP">
+                        <p class="TXTTrash">Trashcan</p>
+                    </a>
+                
+                </div>
+                <div class="FileBox1">
+                    5 Objects
+                </div>
+                <div class="FileBox2">
+                    12KB
+                </div>
+            </div>
+        </div>
+
+*/
+
+.Home{
+    background-color: #D8D8D8;
+    width: 75vh;
+    height: 75vh;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    margin-left: 120vh;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* blauwe balk boven aan tab*/
+.tab{
+    background-color: #000080;
+    height: 5%;
+    width: 98%;
+    position: absolute;
+    margin-top: -92%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Computer-icon{
+    height: 100%;
+    width: 6%;
+}
+
+.HomeTXT{
+    height: 100%;
+    width: 3%;
+    color: white;
+    font-weight: 100;
+    font-size: 130%;
+    margin-top:0.1%;
+}
+
+.Close{
+    width: 4%;
+    height: 80%;
+    background-color: #C5C5C5;
+    margin-left: 95%;
+    margin-top: -7.3%;
+    font-size: 200%;
+}
+
+.CloseX{
+    margin-top: -40%;
+    font-size: 100%;
+    margin-left: 0%;
+    font-weight: 1000;
+}
+
+/* grey Background in tab*/
+.greyb{
+    height: 97%;
+    width: 98%;
+    background-color: #C5C5C5;
+}
+
+.FileName{
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+/* inner box with detail*/
+.W-Box{
+    width: 98%;
+    height: 83%;
+    background-color: white;
+    margin-left:0.8%;
+    margin-top: -5%;
+    border-top: solid 0.4vh black;
+    border-left: solid 0.4vh black;   
+    display: flex;  
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+/*Bottem 2 small boxes*/
+.FileBox1{
+    height: 4.5%;
+    width: 47.5%;
+    border-top: solid 0.2vh black;
+    border-left: solid 0.2vh black;  
+    border-bottom: solid 0.2vh white;
+    border-right: solid 0.2vh white;;
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+}
+
+.FileBox2{
+    height: 4.5%;
+    width: 47.5%;
+    border-top: solid 0.2vh black;
+    border-left: solid 0.2vh black;  
+    border-bottom: solid 0.2vh white;
+    border-right: solid 0.2vh white;;
+    margin-top: -5%;
+    margin-left: 51%;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+}
+
+/* contact page in file*/
+.WCont{
+    height: 20%;
+    width: 20%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TXTCont{
+    margin-top: -3%;
+    font-weight: 1000;
+
+}
+
+.WContP{
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+}
+
+/* About page in file */
+.WAbout{
+    height: 20%;
+    width: 20%;
+    margin-top: 1.2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WAboutP{
+    height: 110%;
+    width: 110%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.TXTAbout   {
+
+    margin-top: -2%;
+    font-weight: 1000;
+    margin-left:8%;
+}
+
+/* Skills in file */
+.WNote{
+    height: 20%;
+    width: 20%;
+    margin-top: 1.2%;   
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WNoteP{
+    height: 95%;
+    width: 95%;
+    margin-top: 2%;
+}
+
+.TXTNote{
+    margin-top: -2%;
+    font-weight: 1000;
+    margin-left:15%;
+}
+/* project page in file*/
+.WProj{
+    height: 20%;
+    width: 24%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.WProjP{
+    height: 90%;
+    width: 90%;
+    margin-top: 3%;
+}
+
+.TXTProj{
+    margin-top: -5%;
+    font-weight: 1000;
+    margin-left:20%;
+}
+
+/* trashcan in file*/ 
+.WTrash{
+    height: 30%;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: -2%;
+}
+
+.WTrashP{
+    height: 100%;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: -5%;
+}
+
+.TXTTrash{
+    margin-top: -20%;
+    font-weight: 1000;
+    margin-left:20%;
+}

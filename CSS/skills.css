@@ -1,0 +1,92 @@
+.Skills_TXT_Tab{
+    background-color: #D8D8D8;
+    height: 90%;
+    width: 60%;
+    margin-top: 0%;
+    margin-left: 0%;
+    position:fixed;
+}
+
+#SK_TAB{
+    height: 5%;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: flex;
+    direction: row;
+}
+
+.SK-TXT-Icon{
+    height: 65%;
+    width: 2.3%;
+    margin-top: 0%;
+}
+
+#Skills-TXT{
+    margin-top: 0.1%;
+}
+
+#Close-SKTXT{
+    margin-left:  88%;
+    width: 1.5%;
+    height: 54%;
+    margin-top: 0.2%;
+}
+
+#W-Box-SK-ID{
+    margin-top: -2%;
+    height:95%;
+}
+
+#greyb-SK-ID{
+    height: 93%;    
+}
+
+.PaintIMG{
+    margin-left: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.PFF{
+    margin-left: 3%;
+    margin-top: -22%;
+    width: 28vh;
+    z-index: -1;
+    height: 37vh;
+    position:fixed;
+    overflow:hidden;
+}
+
+#About_me_TAB_IMG{
+    background-color:  #000080;
+    margin-top: -23.8%;
+    margin-left: 0.1%;
+    height: 2.1%;
+    width: 16.4%;
+    z-index: 2;
+    position:fixed;
+    overflow:hidden;
+}
+
+#Close-AM-PNG{
+    height: 96%;
+    width: 5.5%;
+    margin-top: -0.1%;
+    margin-left: 92%;
+    position: absolute;
+}
+
+.Stars{
+    margin-left: 30%;   
+    margin-top: -22%;
+    height: 104%;
+    width: 104%;
+
+}
+
+.Skills{
+    font-size: 300%;
+    margin-left: 5%;
+    z-index: -1;
+}

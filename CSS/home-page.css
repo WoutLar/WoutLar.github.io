@@ -1,0 +1,62 @@
+.FB{
+    width: 100vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+.computer{
+    height: 20vh;
+    width: 22vh;
+}
+
+.connection{
+    height: 20vh;
+    width: 20vh;
+    margin-left: 1.2vh;
+    margin-top: -5vh;
+}
+
+.trashcan{
+    height: 20vh;
+    width: 20vh;
+    margin-top: -4vh;
+    margin-left: 1.5vh;
+}
+
+.my-contacts{
+    height: 20vh;
+    width: 26vh;
+    margin-top: 1vh;
+    margin-left: -6.5vh   ;
+}
+
+.about-me{
+    height: 20vh;
+    width: 20vh;
+    margin-top: -1vh;
+    margin-left: -3.2vh;
+}
+
+.break{
+    height: 20vh;
+}
+
+
+.notepad{
+    height: 12vh;
+    width: 12vh;
+    margin-top: 5vh;
+    margin-left: -1vh;
+}
+
+.projects{
+    height: 20vh;
+    width: 20vh;
+    margin-left: -3.5VH;
+    margin-top: 3.5vh;
+}
