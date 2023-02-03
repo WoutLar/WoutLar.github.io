@@ -6,8 +6,8 @@ body{
     overflow: hidden;
 }
 
-.logo{
-    height: 100%;
+.logoW{
+    height: 100%;   
     width: 100%;
 }
 
@@ -43,13 +43,6 @@ body{
     margin-top: 60vh;
     height: 20vh;
     width: 40vh;
-}
-
-.logo{
-    width: 100vh;
-    height: 100vh;
-    position: relative;
- 
 }
 
 .username{
