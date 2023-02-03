@@ -5,6 +5,11 @@ body{
     animation: LoadingComplete 0.01s forwards 7s;
 }
 
+.Startup{
+    visibility: hidden; 
+    position: fixed;
+}
+
 .FakeBG{
     background-color: #008080;
     width: 105%;
